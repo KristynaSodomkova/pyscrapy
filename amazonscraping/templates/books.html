@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Books</title>
+  </head>
+  <body>
+    <h1>Books</h1>
+    {% for book in books %}
+      <h2>{{ book.product_name }}</h2>
+      <p>Author: {{ book.product_author }}</p>
+      <p>Price: {{ book.product_price }}</p>
+      <img src="{{ book.product_imagelink }}" alt="{{ book.product_name }}">
+    {% endfor %}
+  </body>
+</html>

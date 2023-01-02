@@ -1,0 +1,6 @@
+pip 3.8
+python 3.8
+flask
+scrapy
+psycopg2
+postgresql
